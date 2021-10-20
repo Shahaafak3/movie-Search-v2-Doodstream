@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) https://t.me/Mr_Robot_t
 # PDisk Login using selenium & Google Chrome Driver part of https://t.me/PDiskRobot
 # Sorry for RIP coding quality. I don't use selenium much. If you can help to improve more than go for it.
 
