@@ -28,8 +28,8 @@ class Configs(object):
     API_ID = int(os.environ.get("API_ID", 0))
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DOODSTREAM_USERNAME = os.environ.get("PDISK_USERNAME", "")
-    DOODSTREAM_PASSWORD = os.environ.get("PDISK_PASSWORD", "")
+    DOODSTREAM_USERNAME = os.environ.get("DOODSTREAM_USERNAME", "")
+    DOODSTREAM_PASSWORD = os.environ.get("DOODSTREAM_PASSWORD", "")
     MAX_RESULTS = int(os.environ.get("MAX_RESULTS", 5))
     # Which DOODSTREAM Domain?
     PDISK_DOMAINS = [
@@ -37,10 +37,11 @@ class Configs(object):
         
       
     ]
-    PDISK_DOMAIN = os.environ.get("PDISK_DOMAIN", PDISK_DOMAINS[2])
+    DOODSTREAM
+    _DOMAIN = os.environ.get("DOODSTREAM_DOMAIN", DOODSTREAM_DOMAINS[2])
 
 
-PDiskBot = Client(
+DoodstreamBot = Client(
     session_name=":memory:",
     api_id=Configs.API_ID,
     api_hash=Configs.API_HASH,
@@ -48,7 +49,7 @@ PDiskBot = Client(
 )
 
 
-@PDiskBot.on_message(filters.command("start") & ~filters.edited)
+@DoodstreamBot.on_message(filters.command("start") & ~filters.edited)
 async def start_handler(_, m: Message):
     await m.reply_text("**Hey**🙏🏻 \n\n I am a Pdisk Movie Searcher Bot.\n\n✅**Send me any movie name i will give you pdisk link**\n\n ", quote=True,
                       reply_markup=InlineKeyboardMarkup([
