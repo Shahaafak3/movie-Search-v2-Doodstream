@@ -33,7 +33,7 @@ class Configs(object):
     MAX_RESULTS = int(os.environ.get("MAX_RESULTS", 5))
     # Which DOODSTREAM Domain?
     PDISK_DOMAINS = [
-        "https://doodapi.com/",
+        "https://doodstream.com/",
         
       
     ]
