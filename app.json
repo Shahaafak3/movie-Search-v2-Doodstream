@@ -38,9 +38,9 @@
             "required": true
         },
         "PDISK_DOMAIN": {
-            "description": "PDisk Default Domain",
+            "description": "Doodstream Default Domain",
             "required": false,
-            "value": "https://www.pdisk.net/"
+            "value": "https://doodstream.com/"
         }
     },
     "stack": "heroku-20",
