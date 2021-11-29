@@ -5,10 +5,10 @@ A Telegram bot for searching videos in your PDisk account by [@Mr_Robot_t](https
 - `API_ID` - Get from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `API_HASH` - Get from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
 - `BOT_TOKEN` - Get from [@BotFather](https://t.me/BotFather)
-- `PDISK_USERNAME` - Your PDisk Account Username/Email
-- `PDISK_PASSWORD` - Your PDisk Account Password
+- `DOODSTREAM_USERNAME` - Your PDisk Account Username/Email
+- `DOODSTREAM_PASSWORD` - Your PDisk Account Password
 - `MAX_RESULTS` - Max Search Results Number
-- `PDISK_DOMAIN` - Choose any from `https://doodstream.com/`, `https://www.pdisk1.net/`, `https://www.pdisk.net/`
+- `DOODSTREAM_DOMAIN` - Choose any from `https://doodstream.com/`, `https://www.pdisk1.net/`, `https://www.pdisk.net/`
 
 ### Commands
 ```
