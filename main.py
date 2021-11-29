@@ -57,7 +57,7 @@ async def start_handler(_, m: Message):
                                  ]))
     
     
-@PDiskBot.on_message( ~filters.edited, group=-1)
+@DoodstreamBot.on_message( ~filters.edited, group=-1)
 async def text_handler(_, m: Message):
     editable = await m.reply_text("**Searching 🔎 Your Movie\n Please Wait...⏳⏳**\n\n**✅For Help - @ALL_WEB_SERIESSS_REQUEST_BOT** ", quote=True,
                                  reply_markup=InlineKeyboardMarkup([
@@ -89,10 +89,10 @@ async def text_handler(_, m: Message):
 
 
 async def run():
-    await PDiskBot.start()
+    await DoodstreamBot.start()
     print("\n\nBot Started!\n\n")
     await idle()
-    await PDiskBot.stop()
+    await DoodstreamBot.stop()
     print("\n\nBot Stopped!\n\n")
 
 
