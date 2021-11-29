@@ -25,19 +25,19 @@
             "description": "Get from https://t.me/BotFather",
             "required": true
         },
-        "PDISK_USERNAME": {
-            "description": "Your PDisk Account Username/Email",
+        "DOODSTREAM_USERNAME": {
+            "description": "Your Doodstream Account Username/Email",
             "required": true
         },
-        "PDISK_PASSWORD": {
-            "description": "Your PDisk Account Password",
+        "DOODSTREAM_PASSWORD": {
+            "description": "Your Doodstream Account Password",
             "required": true
         },
         "MAX_RESULTS": {
             "description": "Max Search Results Number",
             "required": true
         },
-        "PDISK_DOMAIN": {
+        "DOODSTREAM_DOMAIN": {
             "description": "Doodstream Default Domain",
             "required": false,
             "value": "https://doodstream.com/"
