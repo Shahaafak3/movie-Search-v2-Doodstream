@@ -18,7 +18,7 @@ from pyrogram.types import (
 from pyrogram.errors import (
     MessageNotModified
 )
-from core.search_video import search_pdisk_videos
+from core.search_video import search_doodstream_videos
 
 if os.path.exists("configs.env"):
     load_dotenv("configs.env")
@@ -28,10 +28,10 @@ class Configs(object):
     API_ID = int(os.environ.get("API_ID", 0))
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    PDISK_USERNAME = os.environ.get("PDISK_USERNAME", "")
-    PDISK_PASSWORD = os.environ.get("PDISK_PASSWORD", "")
+    DOODSTREAM_USERNAME = os.environ.get("PDISK_USERNAME", "")
+    DOODSTREAM_PASSWORD = os.environ.get("PDISK_PASSWORD", "")
     MAX_RESULTS = int(os.environ.get("MAX_RESULTS", 5))
-    # Which PDisk Domain?
+    # Which DOODSTREAM Domain?
     PDISK_DOMAINS = [
         "https://www.cofilink.com/",
         "https://www.pdisk1.net/",
