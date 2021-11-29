@@ -33,9 +33,9 @@ class Configs(object):
     MAX_RESULTS = int(os.environ.get("MAX_RESULTS", 5))
     # Which DOODSTREAM Domain?
     PDISK_DOMAINS = [
-        "https://www.cofilink.com/",
-        "https://www.pdisk1.net/",
-        "https://www.pdisk.net/"
+        "https://doodapi.com/",
+        
+      
     ]
     PDISK_DOMAIN = os.environ.get("PDISK_DOMAIN", PDISK_DOMAINS[2])
 
