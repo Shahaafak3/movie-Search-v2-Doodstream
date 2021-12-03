@@ -26,7 +26,7 @@ async def search_doodstream_videos(query: str, username: str, password: str) -> 
                 "user_id": user_id,
                 "cookies": cookies
             })
-            return await search_pdisk_videos(query, username, password)
+            return await search_doodstream_videos(query, username, password)
         else:
             return data
     except Exception as error:
