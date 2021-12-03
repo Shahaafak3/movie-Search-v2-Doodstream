@@ -1,5 +1,5 @@
 # (c) https://t.me/Mr_Robot_t
-# PDisk Login using selenium & Google Chrome Driver part of https://t.me/PDiskRobot
+# Doodstream Login using selenium & Google Chrome Driver part of https://t.me/PDiskRobot
 # Sorry for RIP coding quality. I don't use selenium much. If you can help to improve more than go for it.
 
 from selenium import webdriver
@@ -10,9 +10,9 @@ from selenium.common.exceptions import (
 )
 
 
-async def pdisk_login(username: str, password: str):
+async def doodstream_login(username: str, password: str):
     print("Bot on Standby ...")
-    login_url = "https://www.pdisk.net/login?type=login"
+    login_url = "https://doodstream.com/login?type=login"
     get_id_page_url = "https://www.pdisk.net/withdraw"
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
